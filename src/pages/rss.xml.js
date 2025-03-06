@@ -9,3 +9,10 @@ export async function GET(context) {
     customData: `<language>en-us</language>`,
   });
 }
+// export async function GET(context) {
+//   return new Response("<h1>Test JS</h1>", {
+//       headers: {
+//           "content-type": "text/html; charset=utf-8",
+//       },
+//   });
+// }
